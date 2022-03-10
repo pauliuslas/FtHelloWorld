@@ -21,11 +21,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="92dp"
+        android:onClick="onBtnMainSpausk"
         android:text="Click Me!"
-        android:onClick="onBtnMainCLick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvMain" />
+        app:layout_constraintTop_toBottomOf="@+id/tvMain"
+        app:layout_constraintVertical_bias="0.495" />
+
+    <Button
+        android:id="@+id/btnColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:onClick="onBtnMainColor"
+        android:text="Spalva"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMain"
+        app:layout_constraintVertical_bias="0.495" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
